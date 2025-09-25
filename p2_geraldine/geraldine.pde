@@ -1,5 +1,5 @@
 void geraldine(float px,float py){
-  pushMatrix();
+  push();
   translate(px,py);
 
   noFill();
@@ -23,5 +23,5 @@ void geraldine(float px,float py){
   line(95,145,65,145);
   line(35,120,35,145);
   line(65,120,65,145);
-  popMatrix();
+  pop();
 }
